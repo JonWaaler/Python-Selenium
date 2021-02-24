@@ -37,6 +37,12 @@ Also noted that [PEX](https://github.com/pantsbuild/pex#pex), mentioned in
 also produces an executable file, though I believe it relies on python being
 installed.
 
+### CX_Freeze
+While looking for distribution methods I was looking to turn the give files
+from pyinstaller into a .msi installer file. I came across cx_freeze [which seems
+to also output .msi files](https://stackoverflow.com/questions/15734703/use-cx-freeze-to-create-an-msi-that-adds-a-shortcut-to-the-desktop)
+
+
 ## Installers
 For distributing python programming it's also nice to use an installer as it will compress the
 files being distributed and allow the user to more easily set-up the application. Currently,
